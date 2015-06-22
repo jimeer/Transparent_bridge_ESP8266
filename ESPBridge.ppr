@@ -1,0 +1,76 @@
+[Config]
+Compilator.FileName=make
+Compilator.Run=flash.cmd COM4
+Compilator.DefaultDir=D:\Zed\ESP8266\stratus3\ESP8266-bridge_m
+Compilator.SaveAll=1
+Compilator.Capture=1
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+ESPBridge
+	+Folder
+		user\flash_param.c
+		user\flash_param.h
+		user\user_main.c
+		user\config.c
+		user\server.h
+		user\server.c
+		user\config.h
+[Open project files]
+0=user\user_main.c
+1=user\config.c
+2=user\config.h
+3=user\setup.c
+4=user\setup.h
+5=user\server.c
+6=user\server.h
+7=user\flash_param.c
+8=user\flash_param.h
+9=driver\uart.c
+10=Notes.txt
+[Selected Project Files]
+Main=
+Selected=user\user_main.c
+[user\user_main.c]
+TopLine=81
+Caret=32,99
+[user\config.c]
+TopLine=20
+Caret=31,27
+BookMark1=22,149
+BookMark2=1,88
+[user\config.h]
+TopLine=1
+Caret=5,16
+[user\setup.c]
+TopLine=442
+Caret=1,444
+BookMark1=9,346
+BookMark2=45,75
+[user\setup.h]
+TopLine=1
+Caret=16,10
+[user\server.c]
+TopLine=22
+Caret=1,34
+[user\server.h]
+TopLine=1
+Caret=1,1
+[user\flash_param.c]
+TopLine=51
+Caret=26,51
+[user\flash_param.h]
+TopLine=4
+Caret=31,4
+[driver\uart.c]
+TopLine=215
+Caret=7,229
+[Notes.txt]
+TopLine=42
+Caret=44,50
