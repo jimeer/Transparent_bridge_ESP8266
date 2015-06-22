@@ -13,14 +13,20 @@ The workaround is to have the ESP8266 come up as an access point and configure f
 
 To configure the device a USB to serial is required and the following commands mirror the original ones
 
-All commands must begin at the start of a new line and begin with <esc>[, the delimiter is ‘,’. When a command is entered ‘*’ is echoed and the command details are then entered. If no command is entered then the current state is printed.
+All commands must begin at the start of a new line and begin with <esc>[, the delimiter is â€˜,â€™. When a command is entered â€˜*â€™ is echoed and the command details are then entered. If no command is entered then the current state is printed.
 
 esc[r	reset
+
 esc[b	set baud rate
+
 esc[p	set port
+
 esc[m	set mode 1 to 3
+
 esc[s	set station <ssid>,<password>
+
 esc[a	set access point <ssid>,<password>,<channel>
+
 esc[x    print info (current set up)
 
 TCP command
